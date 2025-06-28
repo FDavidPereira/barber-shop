@@ -292,7 +292,7 @@ body {
     margin-right: 50px;
 }
 
-.appointment .input-wrapper:last-of-type{
+.appointment .input-wrapper:last-of-type {
     margin-right: 0;
 }
 
@@ -313,11 +313,11 @@ body {
     border-radius: 3px;
 }
 
-.appointment textarea{
+.appointment textarea {
     height: 100px;
 }
 
-.appointment button{
+.appointment button {
     background-color: var(--color-secondary);
     color: #fff;
     padding: 15px 40px;
@@ -333,10 +333,12 @@ body {
     GALLERY    
 *****************
  */
+
 .gallery {
     background-color: var(--color-primary-light);
     padding: 100px 0;
 }
+
 .gallery h2 {
     color: var(--color-secondary);
     font-weight: 400;
@@ -344,12 +346,13 @@ body {
     margin-bottom: 10px;
     text-align: center;
 }
+
 .gallery img {
     margin: 0 auto;
     display: block;
 }
- 
-.gallery .gallery-wrapper{
+
+.gallery .gallery-wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -359,12 +362,71 @@ body {
 
 }
 
-.gallery .gallery-wrapper div{
+.gallery .gallery-wrapper div {
     border: 10px solid var(--color-primary);
     margin: 6px;
     width: 33%;
 }
 
-.gallery .gallery-wrapper div img{
+.gallery .gallery-wrapper div img {
     width: 100%;
 }
+
+
+/*
+*****************
+    LOCATION    
+*****************
+ */
+
+.location {
+    padding: 100px 0;
+    background: url(../images/bg-location.jpg);
+    background-size: cover;
+}
+
+.location .head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 40px;
+    width: 100%;
+}
+
+.location .head .info {
+    display: flex;
+    align-items: center;
+}
+
+.location .head .info .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--color-primary);
+}
+
+ .location .head .info .text span{
+    display: block;
+    font-size: 13px;
+ }
+
+  .location .head .info .text span:first-child{
+    color: silver;
+  }
+
+   .location .head .info .text span:last-child{
+    color: #fff;
+   }
+
+   .location .map{
+    width: 100%;
+   }
+
+   .location .map iframe{
+    width: 100%;
+   }
