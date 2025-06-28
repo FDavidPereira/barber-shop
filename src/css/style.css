@@ -430,3 +430,18 @@ body {
    .location .map iframe{
     width: 100%;
    }
+
+
+   /*
+*****************
+    FOOTER    
+*****************
+ */
+
+ .footer{
+    background-color: #191919;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 12px;
+ }
