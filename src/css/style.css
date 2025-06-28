@@ -198,7 +198,7 @@ body {
     justify-content: space-between;
 }
 
-.about .experience .text p{
+.about .experience .text p {
     margin-bottom: 20px;
     font-weight: 100;
     font-size: 17px;
@@ -210,37 +210,161 @@ body {
 *****************
  */
 
- .services{
+.services {
     padding: 100px 0;
     text-align: center;
     background-color: var(--color-primary-light);
- }
+}
 
- .services h2{
+.services h2 {
     color: var(--color-secondary);
     font-weight: 400;
     font-size: 50px;
- }
+    margin-bottom: 10px;
+}
 
- .services .boxes{
+.services .boxes {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
- }
+}
 
- .services .box{
+.services .box {
     border: 3px solid var(--color-primary);
     padding: 50px 40px;
     margin: 30px;
- }
+}
 
- .services .box h4{
+.services .box h4 {
     color: var(--color-secondary);
     margin-top: 30px;
- }
+}
 
- .services .box p{
+.services .box p {
     margin-top: 20px;
     font-size: 14px;
     line-height: 25px;
- }
+}
+
+
+/*
+*****************
+    APPONTMENT    
+*****************
+ */
+
+.appointment {
+    background-color: var(--color-primary);
+    height: 100vh;
+    padding: 100px 0;
+    background-image: url(../images/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+
+}
+
+.appointment h2 {
+    color: var(--color-primary-light);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.appointment img {
+    margin: 0 auto;
+    display: block;
+}
+
+.appointment form {
+    margin-top: 80px;
+}
+
+.appointment .personal-data {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+
+.appointment .input-wrapper {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.appointment .input-wrapper:last-of-type{
+    margin-right: 0;
+}
+
+.appointment label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: var(--color-primary-light);
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea {
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.appointment textarea{
+    height: 100px;
+}
+
+.appointment button{
+    background-color: var(--color-secondary);
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*
+*****************
+    GALLERY    
+*****************
+ */
+.gallery {
+    background-color: var(--color-primary-light);
+    padding: 100px 0;
+}
+.gallery h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.gallery img {
+    margin: 0 auto;
+    display: block;
+}
+ 
+.gallery .gallery-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 100vh;
+    margin: 50px auto;
+
+}
+
+.gallery .gallery-wrapper div{
+    border: 10px solid var(--color-primary);
+    margin: 6px;
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img{
+    width: 100%;
+}
